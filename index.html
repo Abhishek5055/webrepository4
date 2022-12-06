@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Web Page</title>
+    <link rel="icon" href="455705.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Education is the keystone for success</h1>
+        <!--Nav Bar-->
+        <!--Earlier id not used now using label-->
+        <nav aria-label="Primary-navigation">
+            <ul>
+                <li>
+                    <a href="#html">Nav bar with the same id</a>
+                </li>
+                <li>
+                    <a href="#Heritage">nav bar usage</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    
+    
+    </header>
+    <hr>
+    <main>
+   
+    <h2>Hi HTML</h2>
+    <p>This is my first web page.</p>
+
+    <h3>I am Learning</h3>
+    <p>Good to learn.To Give some extra space use<br>
+
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;....HTML.
+        <br>&nbsp;&nbsp;...CSS.
+        <br>&nbsp;...JavaScript.
+        <br>.......I am studying in <abbr title="Gogte Institue of Technology">GIT</abbr>
+    </p>
+
+    <hr>
+
+    <h3>Joy Day</h3>
+    <p>Today is a Joy day</p>
+
+
+    <h4>It department</h4>
+    <p>The way to Italicize...<em>Thanks a lot</em></p>
+    <p>To Bold element use .<strong>Yes!!!!</strong></p>
+    <address>
+        Addrress Tag<br>
+        Gogte Institue of Technology<br>
+        Udyambag Belgaum <br>
+    </address>
+    <figure>
+    <img src="img/vacation.jpg" alt="Mangalore Beach" title="Morning Day" width="400" height="227" loading="lazy">
+    <figcaption>
+        Mangalore Tour
+    </figcaption>
+    </figure>
+    <!--this is html comment-->
+    <hr>
+
+    &lt;&lt;&lt;&lt; &copy; Abhi Bijapur &gt; &gt; &gt; &gt;
+
+    <hr>
+    <p>Ordered List</p>
+
+    <ol>
+        <li>Cricket</li>
+        <li>Football</li>
+        <li>Hockey</li>
+    </ol>
+    <hr>
+
+    <p>Unordered List</p>
+    <ul>
+        <li>Cricket</li>
+        <li>Football</li>
+        <li>Hockey</li>
+    </ul>
+    <hr>
+    
+    <p>Description List</p>
+    <dl>
+        <dt>India</dt>
+        <dd>Beautiful country <strong>To Explore</strong></dd>
+
+
+        <dt>South India</dt>
+        <dd>Rich in Culture&Heitage</dd>
+
+
+        <dt>North India</dt>
+        <dd>Mountain Tops</dd>
+    </dl>
+    <hr>
+
+    <p>Article  Tag</p>
+
+
+    <article id="html">
+        <!--us earticle or section tag both are valid-->
+            <h3>use heading tags in section</h3>
+            <p>Image tag</p>
+            <section>
+                <h4>HTML 5</h4>
+            <img src="img/html_logo_300x300.png" alt="HTML5 Logo">
+            <!--HTML code attribute-->
+            <figure>
+                <figcaption>HTML 5 Code</figcaption>
+                <p>
+                    <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                </p>
+            </figure>
+            </section>
+
+            <section>
+                <h4>Hi</h4>
+            <ul>
+                <li>Cricket</li>
+                <li>Football</li>
+                <li>Hockey</li>
+            </ul>
+            
+            <p>Description List</p>
+            <dl>
+                <dt>India</dt>
+                <dd>Beautiful country <strong>To Explore</strong></dd>
+        
+        
+                <dt>South India</dt>
+                <dd>Rich in Culture&Heitage</dd>
+        
+        
+                <dt>North India</dt>
+                <dd>Mountain Tops</dd>
+            </dl>
+            <!--aside,details,summary tag are important to drop down ans show the answer-->
+            <!--For highlighting the text use mark attribute -->
+            <aside>
+                <details>
+                    <summary>Guess who is the richest man in <mark>India</mark></summary>
+                    <p>Gautam Adani</p>
+                </details>
+            </aside>
+            <br>
+            <!--td-tabledata,tr-tablerow-->
+            <table>
+                <caption>My Daily Schedule</caption>
+                <thead>
+                    <!--For semantic we use thead tag-->
+                <tr>
+                    <!--th tag for tableheading-->
+                    <th>&nbsp;</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Morning</th>
+                    <td>
+                        <time datetime="08:00">8am</time>
+                        <time datetime="11:00">11am</time>
+                    </td>
+                    <td>Write code</td>
+                </tr>
+                <tr>
+                    <th scope="row">Break</th>
+                    <td>
+                        <time datetime="11:00">11am</time>
+                        <time datetime="12:00">12pm</time>
+                    </td>
+                    <td>Lunch</td>
+                </tr>
+                <tr>
+                    <th scope="row">Afternoon</th>
+                    <td>
+                        <time datetime="12:00">12pm</time>
+                        <time datetime="17:00">5pm</time>
+                    </td>
+                    <td>Study</td>
+                </tr>
+                <tr>
+                    <th scope="row">Evening</th>
+                    <!--rowspan="2"means it will come two rows into one row-->
+                    <td rowspan="2">Al Other Times</td>
+                    <td>free time</td>
+                </tr>
+                <tr>
+                    <th>Night</th>
+                    <td>Sleep</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">It is nice that i have learned a lot of things from the work</td>
+                </tr>
+            </tfoot>
+            </table>
+            </section>
+    </article>
+    <hr>
+    <br>
+    <!--For to add more breaks use br*50-->
+        <article id="Heritage">
+            <h4>Good</h4>
+            <section>
+            <h5>heading tags like h1,h2---h6.</h5>
+            <p>image with width and height</p>
+            <img src="img/caribbean.jpg" alt="Carribean" width="400" height="225">
+             <p>Second Article</p>
+            <ol>
+                <li>Cricket</li>
+                <li>Football</li>
+                <li>Hockey</li>
+            </ol>
+            <p>Image with title</p>
+            <p>Figure tag and figure caption</p>
+            <figure>
+                <img src="img/vacation.jpg" title="Vacation" alt="Enjoy" loading="lazy">
+            <figcaption>
+                Amazing day
+            </figcaption>
+            </figure>
+        </section>
+        </article>
+
+        <hr>
+        <article id="Contact">
+            <h2>Contact Me</h2>
+            <p>I would really like to hear from you.</p>
+            <!--Usage of form attribute-->
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                <p>
+                <label for="firstName">First Name:</label>
+                <!--Only one element in the form can have autofocus not more than one-->
+                <input type="text" name="firstName" id="firstName" placeholder="Abhi" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                <label for="lastName">Last Name:</label>
+                <!--id name must match label-->
+                <input type="text" name="lastName" id="lastName" placeholder="Vijayapur" autocomplete="on" required >
+                </p>
+                <p>
+                <label for="password">Password:</label>
+                <!--id name must match label-->
+                <input type="password" name="password" id="password" placeholder="your secret" required >
+                </p>
+                <p>
+                <label for="phone">Phone:</label>
+                <!--for telephone type tel.Pattern attribute supports regular expression patterns-->
+                <input type="tel" name="phone" id="phone" placeholder="1234560789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required >
+                </p>
+                <p>
+                <label for="decade">Favourite Decade:</label>
+                <!--by specifying min and max we should limit the year without exceeding our given constraints-->
+                <input type="number" name="decade" id="decade" min="1980" max="2020" step="10" value="1980">
+                </p>
+                
+                
+                
+                <p>
+                   
+                    <label for="coffee">Favourite Coffee: </label>
+                     <!--usage of option attribute -->
+                     <!--To limit options how many to show in page at a time use multiple attribute-->
+                    <select name="coffee" id="coffee" multiple size="5">
+                        <optgroup label="Coffees">
+                        <option value="regular coffee">Regular Coffee</option>
+                        <option value="iced coffee">Iced Coffee</option>
+                    </optgroup>
+                    <optgroup label="Espresso Drinks">
+                        <option value="lattee">Lattee</option>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="cortado">Cortado</option>
+                        <!--If we want to show by defaulted Indiano then use selected-->
+                        <option value="indiano" selected>Indiano</option>
+                    </optgroup>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+
+
+                <br>
+                <hr>
+                <p>
+                    <label for="coffee">Favourite Coffee:</label>
+                    <input type="text" name="Coffee" id="Coffee" list="coffee-list">
+                    <datalist id="coffee-list">
+                        <option value="coffee">coffee</option>
+                        <option value="lattee">lattee</option>
+                        <option value="Espresso">Espresso</option>
+                        <option value="cortado">cortado</option>
+                        <option value="indiano">indiano</option>
+                        <option value="other">other</option>
+                    </datalist>
+                </p>
+                 
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>What is u r favourite food?</legend>
+                <p>
+                    <!--In input type and label id name should be same-->
+                    <input type="radio" name="food" id="tacos" value="tacos" >
+                    <label for="tacos">Tacos</label>
+                    
+                </p>
+                <p>
+                    <!--name should be same in all radio button -->
+                    <input type="radio" name="food" id="pizza" value="pizza" >
+                    <label for="pizza">Pizza</label>
+                    
+                </p>
+                <p>
+                    <!--name should be same in all radio button -->
+                    <input type="radio" name="food" id="other" value="other" >
+                    <label for="other">Other</label>
+                    
+                </p>
+               
+               
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Do You have Pets</legend>
+                <p>
+                    
+                    <input type="Checkbox" name="pets" id="dog" value="dog" >
+                    <label for="dog">Dog</label>
+                    
+                </p>
+                <p>
+                    
+                    <input type="Checkbox" name="pets" id="cat" value="cat" >
+                    <label for="cat">Cat</label>
+                    
+                </p>
+                <p>
+                    
+                    <input type="Checkbox" name="pets" id="fish" value="fish" >
+                    <label for="fish">Fish</label>
+                    
+                </p>
+                <p>
+                    <!--Id should not be same-->
+                    <input type="Checkbox" name="pets" id="otherpet" value="otherpet" >
+                    <label for="otherpet">Otherpet</label>
+                    
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Send Me a Note</legend>
+                <label for="message">Your Message</label>
+                <br>
+                <!--Placeholder specifically holds the data which is given until we write our data-->
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your Message"></textarea>
+            </fieldset>
+            <br>
+            <!--From input we can also create button but it takes only value.In button attribute we can add more-->
+            <button type="submit">Submit</button>
+            <!--we can have more than one submit button by using formaction-->
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+            <button type="reset">Reset</button>
+            </form>
+        </article>
+    </main>
+    <hr>
+
+
+    <p>Anchor Tag</p>
+    <a href="https://www.youtube.com/watch?v=OzLagqKV3x0&t=364s">God Song</a>
+    <hr>
+    <footer>
+    <p>Copy Right with link</p>
+    <p>
+        &lt;&lt;&lt;&lt;&copy;<a href="about.html">Abhishek Vijayapur</a>&gt;&gt;&gt;&gt;
+    </p>
+    <p>
+        <a href="#">Back to Top</a>
+    </p>
+    </footer>
+
+    <hr>
+   
+</body>
+</html>
